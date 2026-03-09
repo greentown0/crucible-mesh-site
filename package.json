@@ -1,0 +1,12 @@
+{
+  "name": "crucible-mesh-site",
+  "version": "1.0.0",
+  "description": "Crucible experimental LoRa mesh network configuration reference",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
