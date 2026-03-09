@@ -3,3 +3,10 @@ _site/
 .DS_Store
 prompts.txt
 CLOUDFLARE_SETUP.md
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
