@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: theme-minimal.njk
 title: Network Configuration
 ---
 
@@ -29,7 +29,7 @@ region put nl-ams
 region allowf nl
 region allowf nl-nh
 region allowf nl-ams
-region denyf *^
+region denyf *
 region save
 ```
 
