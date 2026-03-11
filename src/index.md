@@ -29,14 +29,21 @@ region put nl-ams
 region allowf nl
 region allowf nl-nh
 region allowf nl-ams
-region denyf *
 region save
 ```
+In the future, we will add `region denyf *`, which blocks all packets without a region set. However as of March 2026, it seems like a bug prevents some functionalities/packets from working properly when this is enabled.
 
 ## Multi-byte Paths
 
-All repeaters and companions are encouraged to enable multi-byte paths. This improves routing efficiency across the mesh. To enable it on a repeater, run the following command:
+> As of March 2026, this functionality is so new that letsmesh and mc-radar do not show messages using these settings. If you use those sites, then do not change these settings yet.
+
+All repeaters and companions are encouraged to enable multi-byte paths. This improves observability across the mesh.
+* To enable it on a companion, go to **Settings -> Experimental Settings**
+* To enable it on a repeater, run the following command
 
 ```
 set path.hash.mode 1
 ```
+
+
+
