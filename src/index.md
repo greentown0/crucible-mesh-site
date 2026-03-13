@@ -1,5 +1,5 @@
 ---
-layout: theme-minimal.njk
+layout: base.njk
 title: Network Configuration
 ---
 
