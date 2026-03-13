@@ -383,6 +383,39 @@
       font-family: var(--mono);
     }
 
+    /* ── Nav ────────────────────────────────────────────────── */
+    nav {
+      border-bottom: 1px solid var(--border);
+      background: var(--bg-1);
+      padding: 0 clamp(20px, 5vw, 80px);
+    }
+    .nav-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      gap: 0;
+    }
+    nav a {
+      display: inline-block;
+      font-family: var(--cond);
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-lo);
+      text-decoration: none;
+      border-bottom: none;
+      padding: 12px 18px 12px 0;
+      margin-right: 24px;
+      border-bottom: 2px solid transparent;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    nav a:hover,
+    nav a.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
     /* ── Footer ────────────────────────────────────────────── */
     footer {
       position: relative;
@@ -479,6 +512,13 @@
 
     </div>
   </header>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Network Config</a>
+      <a href="/useful-information/" {% if page.url == "/useful-information/" %}class="active"{% endif %}>Useful Information</a>
+    </div>
+  </nav>
 
   <main>
     {{ content | safe }}
