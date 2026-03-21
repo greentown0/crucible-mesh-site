@@ -30,9 +30,11 @@ The Crucible mesh has a number of bridges that connect it to the main mesh so th
 
 ```mermaid
 flowchart LR
-    P1["Phase 1: Transport mesh\nNew radio + basic regions\nBridges passthrough"] -->
-    P2["Phase 2: Multi-byte paths\nEnable path hash mode\n2-byte default"] -->
+    P1["✓ Phase 1: Transport mesh\nNew radio + basic regions\nBridges passthrough"] -->
+    P2["✓ Phase 2: Multi-byte paths\nEnable path hash mode\n2-byte default"] -->
     P3["Phase 3: Strict regions\nDeny unscoped traffic\nBridges pass scoped only"]
+    style P1 fill:#1f2020,stroke:#4caf50,stroke-width:2px,color:#cde498
+    style P2 fill:#1f2020,stroke:#4caf50,stroke-width:2px,color:#cde498
 ```
 
 ## Phase 1: Transport mesh
