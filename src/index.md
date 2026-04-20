@@ -61,7 +61,7 @@ region allowf PROVINCE
 region save
 ```
 
-Finally, we will set the default region of the repeater, which means that it's adverts will be limited to this scope:
+Finally, we will set the default region of the repeater, which means that its adverts will be limited to this scope:
 ```
 region default PROVINCE
 ```
