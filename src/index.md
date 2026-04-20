@@ -61,6 +61,11 @@ region allowf PROVINCE
 region save
 ```
 
+Finally, we will set the default region of the repeater, which means that it's adverts will be limited to this scope:
+```
+region default PROVINCE
+```
+
 The full list of available region identifiers can be found on [meshwiki.nl](https://meshwiki.nl/wiki/Lijst_van_regio%27s).
 
 **Bridges:**
