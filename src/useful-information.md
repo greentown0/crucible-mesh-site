@@ -10,3 +10,5 @@ title: Useful Information
 - [Repeater & Room Server CLI Reference](https://github.com/meshcore-dev/MeshCore/wiki/Repeater-&-Room-Server-CLI-Reference) — Full reference of CLI commands available on MeshCore repeaters and room servers.
 
 - [Meshcore Blog](https://blog.meshcore.io/) — Very relevant information on new functionalities.
+
+- [CLI refence](https://github.com/Dutch-MeshCore/MeshCore/blob/dmc-observer-dev/docs/cli_commands.md) — Meshcore CLI reference documentation.
